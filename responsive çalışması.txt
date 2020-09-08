@@ -1,0 +1,55 @@
+
+@media screen and (max-width: 900px) {
+  body {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .section-one,
+  .section-two,
+  .section-three {
+    flex: 100%;
+  }
+  .first-header,
+  .fourth-header {
+    background-attachment: scroll;
+    /* background-size: contain; */
+    /* height: 100vh;
+        width:100vw; */
+    /* width:100%;
+        height:100%; */
+  }
+
+  .second-header h1,
+  .third-header h1 {
+    margin: 0 20%;
+  }
+  .second-header,
+  .third-header {
+    /* background-attachment: scroll; */
+    /* display: flex;
+       flex-flow: column nowrap; */
+    /* flex: 100%; */
+    /* background-size: contain; */
+    /* height: 55vh;
+       width:100vw; */
+    /* width:100%;
+       height:100%; */
+  }
+
+  .section-one,
+  .section-two,
+  .section-three {
+    padding: 30px 30px;
+  }
+  .first-header,
+  .fourth-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .first-header h1,
+  .fourth-header h1 {
+    top: 0%;
+    margin: 0 auto;
+  }
+}
